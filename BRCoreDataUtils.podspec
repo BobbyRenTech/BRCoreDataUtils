@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "BRCoreDataUtils"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BRCoreDataUtils."
+  s.summary          = "Utilities for creating NSManagedObject entities, and querying by id or parameters"
   s.description      = <<-DESC
-                       An optional longer description of BRCoreDataUtils
+  		       a library i use a lot
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BRCoreDataUtils"
+  s.homepage         = "https://github.com/BobbyRenTech/BRCoreDataUtils"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Bobby Ren" => "bobbyren@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BRCoreDataUtils.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/BobbyRenTech/BRCoreDataUtils.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
